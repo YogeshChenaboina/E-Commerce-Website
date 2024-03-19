@@ -1,0 +1,55 @@
+.foot {
+    height: 90px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.sub1 {
+    width: 100%;
+    max-width: 200px; /* Adjust this as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px; /* Add some space between .sub1 and .sub2 */
+}
+
+.icon {
+    margin-right: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sub2 {
+    width: calc(100% - 210px); /* Adjust based on the width of .sub1 and the space you want between .sub1 and .sub2 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.span {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .sub1 {
+        max-width: 100%; /* Allow .sub1 to take full width on smaller screens */
+    }
+
+    .sub2 {
+        width: 100%; /* .sub2 takes full width on smaller screens */
+    }
+
+    .foot {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}

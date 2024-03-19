@@ -1,0 +1,146 @@
+.main{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    min-height: 80vh;
+    font-size: 13px;
+}
+.heading{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+.pro{
+    width:50%;
+    height: 45px;
+}
+.dec,.dec,.remo{
+    width: 10%;
+    height: 45px;
+}
+.qua{
+    width: 25%;
+    height: 45px;
+}
+.sub{
+    width: 100%;
+    height: 50px;
+    background-color:gainsboro;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.image{
+    height: 100%;
+    width: 5%;
+}
+.title{
+   width: 45%;
+   text-align: center;
+}
+.btn{
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+}
+.rem{
+    width: 10%;
+    height: 100%;
+    font-size: 12px;
+}
+Link{
+    text-decoration: none;
+}
+span{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quanprice{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.price{
+    text-align: center;
+    background-color:whitesmoke;
+    height: 50%;
+    font-size: 13px;
+}
+.quantity{
+    border: none;
+    height: 50%;
+    font-size: 13px;
+}
+
+
+.bottom{
+    display: flex;
+    height: 65px;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.empty{
+    width: 60%;
+    height: 100%;
+}
+.totalSection{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    
+}
+.buytotal{
+    width: 20%;
+    height: 100%;
+}
+.totalPrice{
+    height: 70%;
+    border: none;
+}
+.totalPrice span{
+    border: none;
+}
+.buyBtn{
+    height: 100%;
+    width: 50%;
+}
+.clearCartBtn{
+    height: 100%;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        font-size: 7px;
+    }
+    
+    .heading {
+        font-size: 13px;
+    }
+    
+    .pro,
+    .dec,
+    .inc,
+    .remo,
+    .qua,
+    .title,
+    .btn,
+    .rem {
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+}
+

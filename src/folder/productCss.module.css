@@ -1,0 +1,47 @@
+.main{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+.sub{
+    margin: 10px;
+    flex-grow: 1;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 2px red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px red;
+}
+.sub:hover{
+    box-shadow: 5px 5px 13px black;
+    border: none;
+}
+.image{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+}
+.btn{
+    scale: 1.1;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+.btn:active{
+    scale: 1;
+}
+

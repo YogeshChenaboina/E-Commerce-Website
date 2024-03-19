@@ -1,0 +1,31 @@
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: beige;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+.welcome{
+    color: brown;
+    border: dotted red 2px;
+    padding: 37px;
+}
+.span{
+    color: red;
+    border: none;
+}
+
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .main {
+        height: 250px;
+        font-size: 35px; /* Adjust font size for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .welcome {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
