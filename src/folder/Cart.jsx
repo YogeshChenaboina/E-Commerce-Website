@@ -71,7 +71,7 @@ const clearCart = () => {
                         <h4 className={styles.totalPrice}>Overall Total:<span className={styles.totalpricespan}>${totalPrice.toFixed(2)}</span></h4>
                     </div>
                     <div className={styles.buytotal}>
-                   <button onClick={clearCart} className={styles.buyBtn}> <Link to='/thank'>BUY</Link> </button>
+                    <Link to='/thank'> <button onClick={clearCart} className={styles.buyBtn}> BUY </button></Link>
                    <button onClick={clearCart} className={styles.clearCartBtn}>Clear Cart</button>
                    </div>
                    </div>
